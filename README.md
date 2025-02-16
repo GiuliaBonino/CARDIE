@@ -10,7 +10,7 @@ In order to try out CARDIE for yourself, you can clone this repository and insta
    pip install -r requirements.txt
 ```
 ## Usage
-In order to run CARDIE, the first step is to create the table with all the relevant features, to do so, you should add your data's path to the [create_tabular_dataset.py](https://github.com/GiuliaBonino/CARDIE/create_tabular_dataset.py) file, add the output file's path and run:
+In order to run CARDIE, the first step is to create the table with all the relevant features, to do so, you should add your data's path to the [create_tabular_dataset.py](https://github.com/GiuliaBonino/CARDIE/blob/master/create_tabular_dataset.py) file, add the output file's path and run:
 ```
   python create_tabular_dataset.py
 ```
@@ -19,9 +19,9 @@ Then, to cluster these features into classes, change the path of the file contai
   python dataset_clutering,py
 ```
 Moreover, you can also find:
-- [quantify_tone_mapping.py](https://github.com/GiuliaBonino/CARDIE/quantify_tone_mapping.py) : quantifies the effect of an Image Enhancement operator on the luminance distribution of your dataset 
-- [traditional_tone_mapping.py](https://github.com/GiuliaBonino/CARDIE/traditional_tone_mapping.py) : applies tone mapping using the Reinhard Devlin operator
-- [dataset_clustering_vgg.py](https://github.com/GiuliaBonino/CARDIE/dataset_clustering_vgg.py): clusters the images in your dataset using the features extracted with VGG (useful for comparisons to the ones obtained with CARDIE)
+- [quantify_tone_mapping.py](https://github.com/GiuliaBonino/CARDIE/blob/master/quantify_tone_mapping.py) : quantifies the effect of an Image Enhancement operator on the luminance distribution of your dataset 
+- [traditional_tone_mapping.py](https://github.com/GiuliaBonino/CARDIE/blob/master/traditional_tone_mapping.py) : applies tone mapping using the Reinhard Devlin operator
+- [dataset_clustering_vgg.py](https://github.com/GiuliaBonino/CARDIE/blob/master/dataset_clustering_vgg.py): clusters the images in your dataset using the features extracted with VGG (useful for comparisons to the ones obtained with CARDIE)
 
 In the notebooks folder, you can find various tests and plots that are present also in the paper.
    
